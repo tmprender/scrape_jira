@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 import json
 import time
 
-# SET GLOBALS - make env_var before committing
+# SET GLOBALS
 API_TOKEN = os.environ['JIRA_API_TOKEN']
 JIRA_DOMAIN = os.environ['JIRA_DOMAIN']
 JIRA_EMAIL= os.environ['JIRA_EMAIL']
